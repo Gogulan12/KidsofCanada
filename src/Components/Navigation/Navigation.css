@@ -1,0 +1,31 @@
+.mainNav {
+  background-color: red;
+}
+
+.navContainer {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  justify-content: space-between;
+  padding: 20px 0 20px 0;
+}
+
+.navigationLogo {
+  width: 100px;
+}
+
+.navigationLogo img {
+  width: 100px;
+}
+.navigationLinks {
+  display: flex;
+}
+
+.navigationLinks ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+  padding: 0;
+}
