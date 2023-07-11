@@ -147,13 +147,13 @@
 .contactusContainer {
   background-color: #ededed;
   padding-bottom: 50px;
-  margin: 100px 0;
+  margin: 100px 0 0 0;
 }
 
-/* .FooterImage {
+.FooterImage {
   height: 30vh;
   background: url("../Assets/backgroundImage1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-} */
+}
