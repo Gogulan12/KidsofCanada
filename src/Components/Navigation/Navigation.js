@@ -11,9 +11,12 @@ export default function Navigation() {
         </div>
         <div className="navigationLinks">
           <ul>
+            <li>Home</li>
             <li>About</li>
             <li>Contact Us</li>
-            <li>Register</li>
+            <li className="ctaRegister">
+              <p>Register Now</p>
+            </li>
           </ul>
         </div>
       </div>

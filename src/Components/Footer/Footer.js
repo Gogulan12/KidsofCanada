@@ -1,11 +1,32 @@
 import React from "react";
+import "./Footer.css";
 
 export default function Footer() {
   return (
-    <div>
-      <div>Logo</div>
-      <div>Contact information</div>
-      <p>Kids of Canada ©️ 2023</p>
-    </div>
+    <footer>
+      <div className="footerWrapper">
+        <div className="footerHeader">
+          <h4 className="footerLogo">Kids of Canada</h4>
+          <nav className="footerNav">
+            <ul>
+              <li>
+                <a href="#" className="active">
+                  home
+                </a>
+              </li>
+              <li>
+                <a href="#">about</a>
+              </li>
+              <li>
+                <a href="#">contact us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div className="copyright">
+          <p>©️ Kids of Canada 2023</p>
+        </div>
+      </div>
+    </footer>
   );
 }

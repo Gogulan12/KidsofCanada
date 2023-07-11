@@ -1,37 +1,56 @@
 .heroTitle {
-  background-color: #da5151;
-  height: 50vh;
+  background-color: white;
+  height: 60vh;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   margin: 0 auto;
   /* max-width: 1200px; */
   text-align: center;
   align-items: center;
   justify-content: center;
+  max-width: 1200px;
 }
 
-.heroTitle h2 {
-  display: flex;
+.heroContent h2 {
+  /* display: flex; */
   margin: 0;
   padding: 50px;
-  color: white;
+  color: black;
   font-size: 50px;
   text-transform: uppercase;
+  font-family: "Luckiest Guy", cursive;
 }
 
-.heroTitle button {
-  /* font-family: sans-serif; */
-  background-color: #3ac6c6;
+.heroContent p {
+  font-family: "Aleo", serif;
+}
+
+.heroContent h2 span {
+  color: #ee4e34;
+}
+/* #FCEDDA #EE4E34  */
+.heroContent button {
+  font-family: "Luckiest Guy", cursive;
+  /* background-color: #559d9d; */
+  background-color: #ee4e34;
   border: none;
-  padding: 10px 20px;
+  padding: 14px 30px;
   border-radius: 10px;
-  color: white;
+  color: #fcedda;
+  font-size: 20px;
+}
+
+/* ///////////PROGRAMS STYLING ////////////// */
+
+.programsSection {
+  background-color: #ededed;
 }
 
 .programTitle {
   padding: 50px;
   font-size: 50px;
   text-transform: uppercase;
+  font-family: "Luckiest Guy", cursive;
 }
 
 .programs {
@@ -39,7 +58,7 @@
   justify-content: space-around;
   margin: 0 auto;
   max-width: 1000px;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .programs a {
@@ -66,6 +85,7 @@
   margin: 0;
   text-transform: uppercase;
   padding-top: 10px;
+  font-family: "Luckiest Guy", cursive;
 }
 
 .programs .summer {
@@ -81,6 +101,7 @@
   margin: 0;
   text-transform: uppercase;
   padding-top: 10px;
+  font-family: "Luckiest Guy", cursive;
 }
 
 .programs .other {
@@ -96,9 +117,43 @@
   margin: 0;
   text-transform: uppercase;
   padding-top: 10px;
+  font-family: "Luckiest Guy", cursive;
 }
+
+/* /////////////ABOUT US///////////// */
 
 .aboutContainer {
   margin: 0 auto;
   max-width: 1000px;
+  display: flex;
+  gap: 50px;
 }
+
+.aboutImage {
+  display: flex;
+  align-items: center;
+}
+
+.aboutContainer p {
+  font-family: "Aleo", serif;
+}
+
+.aboutImage img {
+  border-radius: 10px;
+  box-shadow: 20px 20px 0px 2px #ee4e34;
+}
+
+/* ///////////////CONTACT US//////////// */
+.contactusContainer {
+  background-color: #ededed;
+  padding-bottom: 50px;
+  margin: 100px 0;
+}
+
+/* .FooterImage {
+  height: 30vh;
+  background: url("../Assets/backgroundImage1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} */
