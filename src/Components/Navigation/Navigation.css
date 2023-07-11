@@ -1,5 +1,5 @@
 .mainNav {
-  background-color: red;
+  background-color: #c63a3a;
 }
 
 .navContainer {
@@ -28,4 +28,8 @@
   gap: 50px;
   list-style: none;
   padding: 0;
+}
+
+.navigationLinks ul li {
+  color: white;
 }
