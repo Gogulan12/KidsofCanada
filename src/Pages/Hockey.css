@@ -1,0 +1,75 @@
+.hockeyHeroSection {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hockeyHeroSection::before {
+  content: "";
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("../Assets/HockeyHeroPage.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.hockeyHeroSection h1 {
+  position: relative;
+  margin: 0;
+  color: white;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 4rem;
+}
+
+.hockeyHeroSection p {
+  position: relative;
+  color: white;
+  font-family: "Aleo", serif;
+}
+
+.hockeyHeroText {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hockeyHeroSection button {
+  position: relative;
+  font-family: "Luckiest Guy", cursive;
+  /* background-color: #559d9d; */
+  background-color: #ee4e34;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 10px;
+  color: #fcedda;
+  font-size: 20px;
+}
+
+.hockeyMainSection {
+  text-align: left;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.hockyInformation {
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid #ee4e34;
+  padding: 20px 0;
+}
+/* .hockyInformation ul {
+  padding: 0;
+} */
+
+.hockyInformation ul li {
+  list-style: none;
+  vertical-align: top;
+
+  text-align: left;
+}
