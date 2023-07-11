@@ -48,7 +48,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="aboutContainer">
+      <div className="aboutContainer" id="about">
         <div className="aboutInformationSection">
           <h2 className="programTitle">About Us</h2>
           <p>
@@ -72,7 +72,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="contactusContainer">
+      <div className="contactusContainer" id="contact">
         <div className="contactusText">
           <h2 className="programTitle">Contact Us</h2>
           <p>

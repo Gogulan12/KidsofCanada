@@ -1,0 +1,76 @@
+.summerHeroSection {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.summerHeroSection::before {
+  content: "";
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("../Assets/summerherosection.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.summerHeroSection h1 {
+  position: relative;
+  margin: 0;
+  color: white;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 4rem;
+}
+
+.summerHeroSection p {
+  position: relative;
+  color: white;
+  font-family: "Aleo", serif;
+}
+
+.summerHeroText {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.summerHeroSection button {
+  position: relative;
+  font-family: "Luckiest Guy", cursive;
+  /* background-color: #559d9d; */
+  background-color: #ee4e34;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 10px;
+  color: #fcedda;
+  font-size: 20px;
+}
+
+.summerMainSection {
+  text-align: left;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.summerInformation {
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid #ee4e34;
+  padding: 20px 0;
+}
+/* .summerInformation ul {
+  padding: 0;
+} */
+
+.summerInformation ul li {
+  list-style: none;
+  vertical-align: top;
+
+  text-align: left;
+}

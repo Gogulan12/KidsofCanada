@@ -43,8 +43,13 @@
 .navigationLinks ul li {
   color: black;
   font-family: "Luckiest Guy", cursive;
+  font-size: 1.3em;
 }
 
+.navigationLinks ul li a {
+  text-decoration: none;
+  color: black;
+}
 .ctaRegister {
   padding: 14px 30px;
   background-color: #ffbe58;
