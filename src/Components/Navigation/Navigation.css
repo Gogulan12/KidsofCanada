@@ -44,12 +44,22 @@
   color: black;
   font-family: "Luckiest Guy", cursive;
   font-size: 1.3em;
+  transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .navigationLinks ul li a {
   text-decoration: none;
   color: black;
 }
+
+.navigationLinks ul li:hover {
+  transform: scale(1.2);
+}
+.navigationLinks ul li a:hover {
+  color: #ee4e34;
+}
+
 .ctaRegister {
   padding: 14px 30px;
   background-color: #ffbe58;
@@ -59,3 +69,12 @@
   color: black;
   margin: 0;
 }
+
+.ctaRegister:hover {
+  background-color: #ee4e34;
+  color: #ee4e34;
+}
+
+/* .ctaRegister p:hover {
+  color: #ee4e34;
+} */
