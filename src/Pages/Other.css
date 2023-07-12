@@ -49,6 +49,12 @@
   border-radius: 10px;
   color: #fcedda;
   font-size: 20px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.otherHeroSection button:hover {
+  transform: scale(1.2);
 }
 
 .otherMainSection {
