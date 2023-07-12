@@ -4,6 +4,7 @@ import "./Home.css";
 import Footer from "../Components/Footer/Footer";
 import camp from "../Assets/camp-removebg-preview.png";
 import about from "../Assets/aboutsectionimage.jpg";
+import contact from "../Assets/contact.jpg";
 
 export default function Home() {
   return (
@@ -20,7 +21,9 @@ export default function Home() {
             quia asperiores cum veniam tempora reiciendis voluptatibus tenetur
             ipsam! Autem.
           </p>
-          <button>Register you child now</button>
+          <a href="/registration">
+            <button>Register you child now</button>
+          </a>
         </div>
         <div className="heroImages">
           <img src={camp} alt="" />
@@ -50,7 +53,7 @@ export default function Home() {
 
       <div className="aboutContainer" id="about">
         <div className="aboutInformationSection">
-          <h2 className="programTitle">About Us</h2>
+          <h2 className="programTitle aboutTitle">About Us</h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque
             explicabo dolorem facere ad quas consequuntur nesciunt similique
@@ -73,20 +76,27 @@ export default function Home() {
         </div>
       </div>
       <div className="contactusContainer" id="contact">
-        <div className="contactusText">
-          <h2 className="programTitle">Contact Us</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, hic.
-            Facilis voluptas quibusdam a amet consequatur eaque veritatis
-            voluptatem ratione, magni blanditiis quasi numquam at. Iusto
-            perspiciatis a voluptate similique.
-          </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, eos!
-            Necessitatibus molestiae error delectus praesentium quasi quia
-            aspernatur corrupti quam sequi, aut porro, perferendis tempora unde
-            esse hic iusto aliquam.
-          </p>
+        <h2 className="programTitle">Contact Us</h2>
+        <div className="contactInformationSection">
+          <div className="contactImage">
+            <div className="contactImageContainer">
+              <img src={contact} alt="" />
+            </div>
+          </div>
+          <div className="contactusText">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, hic.
+              Facilis voluptas quibusdam a amet consequatur eaque veritatis
+              voluptatem ratione, magni blanditiis quasi numquam at. Iusto
+              perspiciatis a voluptate similique.
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, eos!
+              Necessitatibus molestiae error delectus praesentium quasi quia
+              aspernatur corrupti quam sequi, aut porro, perferendis tempora
+              unde esse hic iusto aliquam.
+            </p>
+          </div>
         </div>
       </div>
       <div className="FooterImage"></div>

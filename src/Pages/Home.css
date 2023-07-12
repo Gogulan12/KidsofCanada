@@ -38,6 +38,12 @@
   border-radius: 10px;
   color: #fcedda;
   font-size: 20px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.heroContent button:hover {
+  transform: scale(1.2);
 }
 
 /* ///////////PROGRAMS STYLING ////////////// */
@@ -71,6 +77,11 @@
   height: 300px;
   /* border: 1px solid black; */
   border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.program:hover {
+  transform: scale(1.3);
 }
 
 .programs .hockey {
@@ -122,6 +133,10 @@
 
 /* /////////////ABOUT US///////////// */
 
+.aboutTitle {
+  color: #ee4e34;
+}
+
 .aboutContainer {
   margin: 0 auto;
   max-width: 1000px;
@@ -146,8 +161,20 @@
 /* ///////////////CONTACT US//////////// */
 .contactusContainer {
   background-color: #ededed;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   margin: 100px 0 0 0;
+}
+
+.contactInformationSection {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: flex;
+  gap: 50px;
+}
+
+.contactImage img {
+  border-radius: 10px;
+  box-shadow: -20px 20px 0px 2px #ee4e34;
 }
 
 .FooterImage {

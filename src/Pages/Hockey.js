@@ -16,7 +16,9 @@ export default function Hockey() {
             suscipit tenetur accusantium, libero autem rem placeat perspiciatis
             repellendus voluptatum. Excepturi.
           </p>
-          <button>Register you child now</button>
+          <a href="/registration">
+            <button>Register you child now</button>
+          </a>
         </div>
       </div>
       <div className="hockeyMainSection">

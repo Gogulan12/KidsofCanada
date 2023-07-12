@@ -7,7 +7,9 @@ export default function Navigation() {
     <nav className="mainNav">
       <div className="navContainer">
         <div className="navigationLogo">
-          <img src={logo} alt="Logo" />
+          <a href="/">
+            <img src={logo} alt="Logo" />
+          </a>
         </div>
         <div className="navigationLinks">
           <ul>
@@ -21,7 +23,9 @@ export default function Navigation() {
               <a href="/#contact">Contact Us</a>
             </li>
             <li className="ctaRegister">
-              <p>Register Now</p>
+              <a href="/registration">
+                <p>Register Now</p>
+              </a>
             </li>
           </ul>
         </div>

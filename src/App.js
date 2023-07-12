@@ -4,6 +4,7 @@ import Home from "./Pages/Home";
 import Hockey from "./Pages/Hockey";
 import Summer from "./Pages/Summer";
 import Other from "./Pages/Other";
+import Registration from "./Pages/Registration";
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route path="/Other">
             <Other />
+          </Route>
+          <Route path="/Registration">
+            <Registration />
           </Route>
         </Switch>
       </BrowserRouter>
