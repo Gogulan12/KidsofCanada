@@ -9,7 +9,7 @@
 
 .mainNav {
   background-color: white;
-  border-bottom: 1px solid #da5151;
+  border-bottom: 1px solid #db3c34;
 }
 
 .navContainer {
@@ -57,7 +57,7 @@
   transform: scale(1.2);
 }
 .navigationLinks ul li a:hover {
-  color: #ee4e34;
+  color: #db3c34;
 }
 
 .ctaRegister {
@@ -71,10 +71,10 @@
 }
 
 .ctaRegister:hover {
-  background-color: #ee4e34;
-  color: #ee4e34;
+  background-color: #db3c34;
+  color: #db3c34;
 }
 
 /* .ctaRegister p:hover {
-  color: #ee4e34;
+  color: #db3c34;
 } */

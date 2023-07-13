@@ -26,13 +26,13 @@
 }
 
 .heroContent h2 span {
-  color: #ee4e34;
+  color: #db3c34;
 }
 /* #FCEDDA #EE4E34  */
 .heroContent button {
   font-family: "Luckiest Guy", cursive;
   /* background-color: #559d9d; */
-  background-color: #ee4e34;
+  background-color: #db3c34;
   border: none;
   padding: 14px 30px;
   border-radius: 10px;
@@ -134,7 +134,7 @@
 /* /////////////ABOUT US///////////// */
 
 .aboutTitle {
-  color: #ee4e34;
+  color: #db3c34;
 }
 
 .aboutContainer {
@@ -155,7 +155,7 @@
 
 .aboutImage img {
   border-radius: 10px;
-  box-shadow: 20px 20px 0px 2px #ee4e34;
+  box-shadow: 20px 20px 0px 2px #db3c34;
 }
 
 /* ///////////////CONTACT US//////////// */
@@ -174,7 +174,7 @@
 
 .contactImage img {
   border-radius: 10px;
-  box-shadow: -20px 20px 0px 2px #ee4e34;
+  box-shadow: -20px 20px 0px 2px #db3c34;
 }
 
 .FooterImage {

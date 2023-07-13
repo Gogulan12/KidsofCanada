@@ -42,7 +42,7 @@
   position: relative;
   font-family: "Luckiest Guy", cursive;
   /* background-color: #559d9d; */
-  background-color: #ee4e34;
+  background-color: #db3c34;
   border: none;
   padding: 14px 30px;
   border-radius: 10px;
@@ -66,7 +66,7 @@
 .hockyInformation {
   max-width: 1200px;
   margin: 0 auto;
-  border: 1px solid #ee4e34;
+  border: 1px solid #db3c34;
   padding: 20px 0;
 }
 /* .hockyInformation ul {
