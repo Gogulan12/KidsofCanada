@@ -10,23 +10,25 @@ export default function Home() {
   return (
     <div className="home">
       <Navigation />
-      <div className="heroTitle">
-        <div className="heroContent">
-          <h2>
-            Welcome to <br /> <span>Kids of Canada!</span>
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
-            sint sunt vitae hic ducimus, ea maxime eius assumenda delectus ex
-            quia asperiores cum veniam tempora reiciendis voluptatibus tenetur
-            ipsam! Autem.
-          </p>
-          <a href="/registration">
-            <button>Register you child now</button>
-          </a>
-        </div>
-        <div className="heroImages">
-          <img src={camp} alt="" />
+      <div className="heroContainer">
+        <div className="heroTitle">
+          <div className="heroContent">
+            <h2>
+              Welcome to <br /> <span>Kids of Canada!</span>
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
+              sint sunt vitae hic ducimus, ea maxime eius assumenda delectus ex
+              quia asperiores cum veniam tempora reiciendis voluptatibus tenetur
+              ipsam! Autem.
+            </p>
+            <a href="/registration">
+              <button>Register you child now</button>
+            </a>
+          </div>
+          {/* <div className="heroImages">
+            <img src={camp} alt="" />
+          </div> */}
         </div>
       </div>
 

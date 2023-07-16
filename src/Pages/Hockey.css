@@ -12,6 +12,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
     url("../Assets/HockeyHeroPage.jpg");
   background-size: cover;
+  background-attachment: fixed;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -46,7 +47,7 @@
   border: none;
   padding: 14px 30px;
   border-radius: 10px;
-  color: #fcedda;
+  color: white;
   font-size: 20px;
   transition: transform 0.3s ease;
   cursor: pointer;

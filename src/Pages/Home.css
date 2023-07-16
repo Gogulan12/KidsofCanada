@@ -1,6 +1,16 @@
+.heroContainer {
+  background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("../Assets/paddling.jpg");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .heroTitle {
-  background-color: white;
-  height: 60vh;
+  /* background-color: white; */
+  height: 70vh;
   display: flex;
   /* flex-direction: column; */
   margin: 0 auto;
@@ -15,14 +25,19 @@
   /* display: flex; */
   margin: 0;
   padding: 50px;
-  color: black;
-  font-size: 5rem;
+  color: white;
+  font-size: 7rem;
   text-transform: uppercase;
   font-family: "Luckiest Guy", cursive;
 }
 
 .heroContent p {
+  margin: 0 auto;
   font-family: "Aleo", serif;
+  color: white;
+  padding-bottom: 50px;
+  width: 600px;
+  font-weight: bold;
 }
 
 .heroContent h2 span {
@@ -36,7 +51,7 @@
   border: none;
   padding: 14px 30px;
   border-radius: 10px;
-  color: #fcedda;
+  color: white;
   font-size: 20px;
   transition: transform 0.3s ease;
   cursor: pointer;
@@ -53,7 +68,8 @@
 }
 
 .programTitle {
-  padding: 50px;
+  margin: 0;
+  padding: 100px;
   font-size: 50px;
   text-transform: uppercase;
   font-family: "Luckiest Guy", cursive;
@@ -181,6 +197,7 @@
   height: 30vh;
   background: url("../Assets/backgroundImage1.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 25% -700%;
   background-size: cover;
+  background-attachment: fixed;
 }
