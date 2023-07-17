@@ -17,7 +17,7 @@ export default function Hockey() {
             repellendus voluptatum. Excepturi.
           </p>
           <a href="/registration">
-            <button>Register you child now</button>
+            <button>Register your child now</button>
           </a>
         </div>
       </div>

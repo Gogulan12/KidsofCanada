@@ -23,7 +23,7 @@ export default function Home() {
               ipsam! Autem.
             </p>
             <a href="/registration">
-              <button>Register you child now</button>
+              <button>Register your child now</button>
             </a>
           </div>
           {/* <div className="heroImages">

@@ -198,7 +198,8 @@
 
 .FooterImage {
   height: 30vh;
-  background: url("../Assets/backgroundImage1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("../Assets/backgroundImage1.jpg");
   background-repeat: no-repeat;
   background-position: 25% 200px;
   background-size: cover;
@@ -231,6 +232,48 @@
 
 @media (max-width: 730px) {
   .heroContent h1 {
+    font-size: 4rem;
+  }
+
+  .heroContent p {
+    width: 400px;
+  }
+}
+
+@media (max-width: 679px) {
+  .program {
+    width: 80vw;
+    height: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .heroContent h1 {
     font-size: 3rem;
+    padding: 0;
+    padding-bottom: 30px;
+  }
+
+  .aboutImageContainer img {
+    width: 80%;
+  }
+
+  .contactImageContainer img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .programTitle {
+    padding: 100px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroContent h1 {
+    font-size: 2.5rem;
+  }
+  .heroContent p {
+    width: 300px;
   }
 }
