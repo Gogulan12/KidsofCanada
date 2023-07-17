@@ -13,9 +13,9 @@ export default function Home() {
       <div className="heroContainer">
         <div className="heroTitle">
           <div className="heroContent">
-            <h2>
+            <h1>
               Welcome to <br /> <span>Kids of Canada!</span>
-            </h2>
+            </h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
               sint sunt vitae hic ducimus, ea maxime eius assumenda delectus ex
@@ -32,6 +32,7 @@ export default function Home() {
         </div>
       </div>
 
+      {/*///////// Programs Section //////////*/}
       <div className="programsSection">
         <h2 className="programTitle">Programs</h2>
         <div className="programs">
@@ -73,7 +74,7 @@ export default function Home() {
         </div>
         <div className="aboutImage">
           <div className="aboutImageContainer">
-            <img src={about} alt="" />
+            <img src={about} alt="Kids playing jump rope" />
           </div>
         </div>
       </div>

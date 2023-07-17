@@ -21,7 +21,7 @@
   max-width: 1200px;
 }
 
-.heroContent h2 {
+.heroContent h1 {
   /* display: flex; */
   margin: 0;
   padding: 50px;
@@ -40,7 +40,7 @@
   font-weight: bold;
 }
 
-.heroContent h2 span {
+.heroContent h1 span {
   color: #db3c34;
 }
 /* #FCEDDA #EE4E34  */
@@ -81,6 +81,7 @@
   margin: 0 auto;
   max-width: 1200px;
   padding-bottom: 100px;
+  flex-wrap: wrap;
 }
 
 .programs a {
@@ -94,10 +95,11 @@
   /* border: 1px solid black; */
   border-radius: 20px;
   transition: transform 0.3s ease;
+  margin: 20px;
 }
 
 .program:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 .programs .hockey {
@@ -158,6 +160,7 @@
   max-width: 1000px;
   display: flex;
   gap: 50px;
+  /* flex-wrap: wrap; */
 }
 
 .aboutImage {
@@ -197,7 +200,37 @@
   height: 30vh;
   background: url("../Assets/backgroundImage1.jpg");
   background-repeat: no-repeat;
-  background-position: 25% -700%;
+  background-position: 25% 200px;
   background-size: cover;
   background-attachment: fixed;
+}
+
+/* //////////////////MEDIA QUERIES///////////////// */
+
+@media (max-width: 1060px) {
+  .aboutContainer {
+    flex-direction: column;
+    max-width: 600px;
+  }
+
+  .aboutImage {
+    justify-content: center;
+  }
+
+  .contactInformationSection {
+    flex-direction: column;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 960px) {
+  .heroContent h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 730px) {
+  .heroContent h1 {
+    font-size: 3rem;
+  }
 }

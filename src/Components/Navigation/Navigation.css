@@ -78,3 +78,68 @@
 /* .ctaRegister p:hover {
   color: #db3c34;
 } */
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+
+.bar {
+  display: block;
+  width: 35px;
+  height: 5px;
+  margin: 5px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
+@media (max-width: 880px) {
+  .hamburger {
+    display: block;
+    z-index: 20;
+  }
+
+  .hamburger.navactive .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.navactive .bar:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
+  .hamburger.navactive .bar:nth-child(3) {
+    transform: translateY(-11px) rotate(-45deg);
+  }
+
+  .navigationLinks .nav-menu {
+    position: fixed;
+    left: 100%;
+    top: 97px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #db3c34;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .navigationLinks .nav-menu.navactive {
+    left: 0;
+    position: absolute;
+  }
+
+  .ctaRegister:hover {
+    background-color: white;
+    color: white;
+  }
+
+  .navigationLinks ul li a:hover {
+    color: white;
+  }
+}
