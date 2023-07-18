@@ -14,8 +14,8 @@ export default function Registration() {
       </div>
       <div>
         <h2 className="regTitle">Summer Camp Registration</h2>
-        <form action="process_form.php" method="POST">
-          {/* <!-- Child Information --> */}
+        {/* <form action="process_form.php" method="POST">
+          <!-- Child Information -->
           <h3>Child Information</h3>
           <label for="child_first_name">Child's First Name:</label>
           <input
@@ -42,7 +42,7 @@ export default function Registration() {
           <label for="school_name">Name of School:</label>
           <input type="text" id="school_name" name="school_name" required />
 
-          {/* <!-- Parent Information --> */}
+          <!-- Parent Information -->
           <h3>Parent Information</h3>
           <label for="parent_first_name">Parent/Guardian First Name:</label>
           <input
@@ -69,7 +69,7 @@ export default function Registration() {
           <label for="email">Email:</label>
           <input type="email" id="email" name="email" required />
 
-          {/* <!-- Medical Information --> */}
+          <!-- Medical Information -->
           <h3>Medical Information</h3>
           <label for="physician_name">Physician Name:</label>
           <input
@@ -95,9 +95,19 @@ export default function Registration() {
             cols="30"
           ></textarea>
 
-          {/* <!-- Submit Button --> */}
+          <!-- Submit Button -->
           <input type="submit" value="Submit" />
-        </form>
+        </form> */}
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLScWEYya3L9mR9JSkFbcKH-RwVa1HLpguw-K61ZHHKQKysm8RA/viewform?embedded=true"
+          width="640"
+          height="818"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+        >
+          Loading…
+        </iframe>
       </div>
 
       <Footer />

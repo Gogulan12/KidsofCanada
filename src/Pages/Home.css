@@ -206,6 +206,10 @@
   background-attachment: fixed;
 }
 
+iframe {
+  padding-bottom: 50px;
+}
+
 /* //////////////////MEDIA QUERIES///////////////// */
 
 @media (max-width: 1060px) {
@@ -244,6 +248,16 @@
   .program {
     width: 80vw;
     height: 200px;
+  }
+}
+
+@media (max-width: 620px) {
+  .aboutInformationSection p {
+    margin: 0 20px;
+  }
+
+  .contactusText p {
+    margin: 0 20px;
   }
 }
 
