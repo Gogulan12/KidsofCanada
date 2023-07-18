@@ -80,3 +80,9 @@ input[type="submit"]:hover {
     height: auto;
   }
 }
+
+@media (max-width: 640px) {
+  iframe {
+    width: 80vw;
+  }
+}

@@ -1,6 +1,6 @@
 .hockeyHeroSection {
   position: relative;
-  height: 50vh;
+  height: 70vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -26,6 +26,7 @@
   color: white;
   font-family: "Luckiest Guy", cursive;
   font-size: 4rem;
+  padding: 50px;
 }
 
 .hockeyHeroSection p {
@@ -80,3 +81,27 @@
 
   text-align: left;
 }
+
+@media (max-width: 1220px) {
+  .hockyInformation {
+    margin: 0 10px;
+  }
+
+  .hockeyTitle h2,
+  .hockeyTitle h3 {
+    margin: 10px 10px;
+  }
+}
+
+/* @media (max-width: 1000px) {
+  .hockeyHeroText {
+    text-align: center;
+    margin: 0 80vw;
+  }
+
+  .hockeyHeroText p {
+    width: 80vw;
+    text-align: center;
+    align-items: center;
+  }
+} */
