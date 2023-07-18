@@ -132,6 +132,7 @@
   .navigationLinks .nav-menu.navactive {
     left: 0;
     position: absolute;
+    z-index: 20;
   }
 
   .ctaRegister:hover {
