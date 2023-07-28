@@ -143,12 +143,16 @@
     z-index: 20;
   }
 
+  .ctaRegister {
+    background-color: red;
+  }
+
   .ctaRegister:hover {
-    background-color: white;
-    color: white;
+    background-color: red;
+    color: red;
   }
 
   .navigationLinks ul li a:hover {
-    color: white;
+    color: red;
   }
 }

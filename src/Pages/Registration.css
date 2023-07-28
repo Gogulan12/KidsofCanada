@@ -15,7 +15,7 @@
 }
 /*   font-family: 'Aleo', serif; */
 
-form {
+/* form {
   display: flex;
   flex-direction: column;
   background-color: #fcedda;
@@ -27,7 +27,7 @@ form {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: left;
   margin-bottom: 50px;
-}
+} */
 
 label {
   display: block;
@@ -68,11 +68,11 @@ input[type="submit"]:hover {
   background-color: #45a049;
 }
 
-@media (max-width: 1060px) {
+/* @media (max-width: 1060px) {
   form {
     margin: 0 20px;
   }
-}
+} */
 
 @media (max-width: 940px) {
   .navigationHero img {

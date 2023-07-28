@@ -6,6 +6,7 @@ import Footer from "../Components/Footer/Footer";
 import about from "../Assets/aboutsectionimage.jpg";
 import contact from "../Assets/contact.jpg";
 import BackToTopButton from "../Components/Button/BackToTopButton";
+import ContactForm from "../Components/ContactForm/ContactForm";
 
 export default function Home() {
   return (
@@ -95,18 +96,12 @@ export default function Home() {
             </div>
           </div>
           <div className="contactusText">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, hic.
-              Facilis voluptas quibusdam a amet consequatur eaque veritatis
-              voluptatem ratione, magni blanditiis quasi numquam at. Iusto
-              perspiciatis a voluptate similique.
-            </p>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, eos!
-              Necessitatibus molestiae error delectus praesentium quasi quia
-              aspernatur corrupti quam sequi, aut porro, perferendis tempora
-              unde esse hic iusto aliquam.
-            </p>
+            <p>Owner & Director - Cory Shiner</p>
+            <p>info@kidsofcanada.com</p>
+            <p>416-891-4FUN</p>
+            <p>416-891-4386</p>
+            <p>Feel free to ask us any questions:</p>
+            <ContactForm />
           </div>
         </div>
       </div>

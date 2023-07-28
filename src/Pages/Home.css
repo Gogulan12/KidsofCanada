@@ -208,6 +208,18 @@ body {
   /* margin: 100px 0 0 0; */
 }
 
+.contactImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactusText {
+  width: 100%;
+  text-align: left;
+  font-family: "Aleo", serif;
+}
+
 .contactInformationSection {
   margin: 0 auto;
   max-width: 1000px;
@@ -218,6 +230,44 @@ body {
 .contactImage img {
   border-radius: 10px;
   box-shadow: -20px 20px 0px 2px #db3c34;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #db3c34;
+  border-radius: 10px;
+  /* border: 1px solid darkgrey; */
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  text-align: left;
+  margin-bottom: 50px;
+  color: white;
+  display: flex;
+}
+
+form button {
+  margin-top: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 50%;
+  font-family: "Aleo", serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #db3c34;
+  cursor: pointer;
+
+  align-self: center;
+}
+
+@media (max-width: 1060px) {
+  form {
+    margin: 0 20px;
+  }
 }
 
 .FooterImage {
