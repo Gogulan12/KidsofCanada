@@ -18,14 +18,21 @@ export default function Home() {
               Welcome to <br /> <span>Kids of Canada!</span>
             </h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
-              sint sunt vitae hic ducimus, ea maxime eius assumenda delectus ex
-              quia asperiores cum veniam tempora reiciendis voluptatibus tenetur
-              ipsam! Autem.
+              With over 25 years of children and youth programming experience,
+              Kids Of Canada is the place to be! All of our programs feature &
+              promote:
             </p>
-            <a href="/registration">
+            <ul>
+              <li>Small Groups</li>
+              <li>More Personal Attention</li>
+              <li>Confidence Building</li>
+              <li>
+                Highly Qualified & Certified Staff who love working with kids
+              </li>
+            </ul>
+            {/* <a href="/registration">
               <button>Register your child now</button>
-            </a>
+            </a> */}
           </div>
           {/* <div className="heroImages">
             <img src={camp} alt="" />
@@ -55,7 +62,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="aboutContainer" id="about">
+      {/* <div className="aboutContainer" id="about">
         <div className="aboutInformationSection">
           <h2 className="programTitle aboutTitle">About Us</h2>
           <p>
@@ -78,7 +85,7 @@ export default function Home() {
             <img src={about} alt="Kids playing jump rope" />
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="contactusContainer" id="contact">
         <h2 className="programTitle">Contact Us</h2>
         <div className="contactInformationSection">

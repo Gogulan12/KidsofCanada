@@ -12,6 +12,19 @@ export default function Hockey() {
         <div className="hockeyHeroText">
           <h1>Hockey Camp Summer</h1>
           <p>
+            With over 25 years of children and youth programming experience,
+            Kids Of Canada is the place to be! All of our programs feature &
+            promote:
+          </p>
+          <ul>
+            <li>Small Groups</li>
+            <li>More Personal Attention</li>
+            <li>Confidence Building</li>
+            <li>
+              Highly Qualified & Certified Staff who love working with kids
+            </li>
+          </ul>
+          {/* <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad velit
             sint earum incidunt dolorem tempore voluptatibus rerum, a ab
             suscipit tenetur accusantium, libero autem rem placeat perspiciatis
@@ -19,7 +32,7 @@ export default function Hockey() {
           </p>
           <a href="/registration">
             <button>Register your child now</button>
-          </a>
+          </a> */}
         </div>
       </div>
       <div className="hockeyMainSection">

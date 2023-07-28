@@ -5,7 +5,7 @@ body {
 .heroContainer {
   background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
     url("../Assets/paddling.jpg");
-  height: 70vh;
+  height: 73vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -33,16 +33,36 @@ body {
   font-size: 7rem;
   text-transform: uppercase;
   font-family: "Luckiest Guy", cursive;
+  margin-bottom: 20px;
 }
 
 .heroContent p {
   margin: 0 auto;
   font-family: "Aleo", serif;
   color: white;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
   width: 600px;
   font-weight: bold;
+  font-size: 18px;
 }
+
+.heroContent ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+  color: white;
+  font-family: "Aleo", serif;
+  font-weight: bold;
+}
+
+.heroContent li {
+  margin-bottom: 10px;
+}
+
+/* .heroContent li:before {
+  content: "\2022"; 
+  margin-right: 10px;
+} */
 
 .heroContent h1 span {
   color: #db3c34;
@@ -183,9 +203,9 @@ body {
 
 /* ///////////////CONTACT US//////////// */
 .contactusContainer {
-  background-color: #ededed;
+  /* background-color: #ededed; */
   padding-bottom: 100px;
-  margin: 100px 0 0 0;
+  /* margin: 100px 0 0 0; */
 }
 
 .contactInformationSection {

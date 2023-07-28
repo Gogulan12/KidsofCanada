@@ -1,6 +1,6 @@
 .summerHeroSection {
   position: relative;
-  height: 50vh;
+  height: 73vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -28,12 +28,39 @@
   color: white;
   font-family: "Luckiest Guy", cursive;
   font-size: 4rem;
+  margin-bottom: 50px;
 }
 
-.summerHeroSection p {
+/* .summerHeroSection p {
   position: relative;
   color: white;
   font-family: "Aleo", serif;
+} */
+
+.summerHeroSection p {
+  position: relative;
+  margin: 0 auto;
+  font-family: "Aleo", serif;
+  color: white;
+  /* padding-bottom: 50px; */
+  width: 600px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.summerHeroSection ul {
+  position: relative;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+  color: white;
+  font-family: "Aleo", serif;
+  font-weight: bold;
+}
+
+.summerHeroSection li {
+  position: relative;
+  margin-bottom: 10px;
 }
 
 .summerHeroText {
