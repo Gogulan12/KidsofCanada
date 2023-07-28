@@ -3,6 +3,7 @@ import Navigation from "../Components/Navigation/Navigation";
 import Footer from "../Components/Footer/Footer";
 
 import "./Summer.css";
+import BackToTopButton from "../Components/Button/BackToTopButton";
 
 export default function Summer() {
   return (
@@ -40,6 +41,7 @@ export default function Summer() {
         </div>
       </div>
       <Footer />
+      <BackToTopButton />
     </div>
   );
 }

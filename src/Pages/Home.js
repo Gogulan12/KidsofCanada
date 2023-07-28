@@ -5,6 +5,7 @@ import Footer from "../Components/Footer/Footer";
 // import camp from "../Assets/camp-removebg-preview.png";
 import about from "../Assets/aboutsectionimage.jpg";
 import contact from "../Assets/contact.jpg";
+import BackToTopButton from "../Components/Button/BackToTopButton";
 
 export default function Home() {
   return (
@@ -104,6 +105,7 @@ export default function Home() {
       </div>
       <div className="FooterImage"></div>
       <Footer />
+      <BackToTopButton />
     </div>
   );
 }

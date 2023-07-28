@@ -2,6 +2,7 @@ import React from "react";
 import Navigation from "../Components/Navigation/Navigation";
 import Footer from "../Components/Footer/Footer";
 import "./Hockey.css";
+import BackToTopButton from "../Components/Button/BackToTopButton";
 
 export default function Hockey() {
   return (
@@ -39,6 +40,7 @@ export default function Hockey() {
         </div>
       </div>
       <Footer />
+      <BackToTopButton />
     </div>
   );
 }

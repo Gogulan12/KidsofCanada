@@ -2,6 +2,7 @@ import React from "react";
 import Navigation from "../Components/Navigation/Navigation";
 import Footer from "../Components/Footer/Footer";
 import "./Other.css";
+import BackToTopButton from "../Components/Button/BackToTopButton";
 
 export default function Other() {
   return (
@@ -39,6 +40,7 @@ export default function Other() {
         </div>
       </div>
       <Footer />
+      <BackToTopButton />
     </div>
   );
 }
