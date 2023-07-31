@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./BackToTopButton.css"; // You can create a separate CSS file for the styling.
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee, faArrowUp } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 const BackToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);

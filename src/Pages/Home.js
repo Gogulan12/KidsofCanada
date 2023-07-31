@@ -3,7 +3,7 @@ import Navigation from "../Components/Navigation/Navigation";
 import "./Home.css";
 import Footer from "../Components/Footer/Footer";
 // import camp from "../Assets/camp-removebg-preview.png";
-import about from "../Assets/aboutsectionimage.jpg";
+// import about from "../Assets/aboutsectionimage.jpg";
 import contact from "../Assets/contact.jpg";
 import BackToTopButton from "../Components/Button/BackToTopButton";
 import ContactForm from "../Components/ContactForm/ContactForm";
