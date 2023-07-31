@@ -93,7 +93,7 @@ body {
 
 .programTitle {
   margin: 0;
-  padding: 100px;
+  padding: 60px;
   font-size: 50px;
   text-transform: uppercase;
   font-family: "Luckiest Guy", cursive;
@@ -218,6 +218,7 @@ body {
   width: 100%;
   text-align: left;
   font-family: "Aleo", serif;
+  font-weight: bold;
 }
 
 .contactInformationSection {
@@ -266,7 +267,7 @@ form button {
 
 @media (max-width: 1060px) {
   form {
-    margin: 0 20px;
+    /* margin: 0 20px; */
   }
 }
 
@@ -328,9 +329,14 @@ iframe {
 @media (max-width: 620px) {
   .aboutInformationSection p {
     margin: 0 20px;
+    /* padding: 20px 0; */
   }
 
   .contactusText p {
+    margin: 0 20px;
+    padding: 10px 0;
+  }
+  form {
     margin: 0 20px;
   }
 }

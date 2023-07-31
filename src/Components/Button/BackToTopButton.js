@@ -8,7 +8,7 @@ const BackToTopButton = () => {
 
   // Function to handle the scroll event and toggle visibility of the button
   const handleScroll = () => {
-    if (window.scrollY > 100) {
+    if (window.scrollY > 0) {
       setIsVisible(true);
     } else {
       setIsVisible(false);

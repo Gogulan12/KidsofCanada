@@ -1,0 +1,22 @@
+.contactformbutton {
+  transition: transform 0.2s;
+}
+
+.contactformbutton:hover {
+  transform: scale(1.2);
+}
+.contactformbutton:active {
+  transform: scale(1);
+}
+
+.contactformtextarea {
+  height: 150px;
+  font-family: "Aleo", sans-serif;
+  font-size: 16px;
+}
+
+.contactformname,
+.contactformemail {
+  font-family: "Aleo", sans-serif;
+  font-size: 16px;
+}

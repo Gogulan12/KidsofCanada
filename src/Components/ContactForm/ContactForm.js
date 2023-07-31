@@ -1,53 +1,83 @@
 import React, { useState } from "react";
+import "./ContactForm.css";
 
 const ContactForm = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [question, setQuestion] = useState("");
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
-  const handleSubmit = (e) => {
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevState) => ({
+      ...prevState,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Here you can implement the logic to handle form submission, like sending the data to a server or performing any other action.
-    // For this example, we will simply log the form data to the console.
-    console.log("Form submitted:", { name, email, question });
-    // Clear form fields after submission
-    setName("");
-    setEmail("");
-    setQuestion("");
+    try {
+      const formspreeEndpoint = "https://formspree.io/f/xbjvdorv";
+      await fetch(formspreeEndpoint, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+      alert("Form submitted successfully!");
+      setFormData({
+        name: "",
+        email: "",
+        message: "",
+      });
+    } catch (error) {
+      console.error("Error submitting the form:", error);
+    }
   };
 
   return (
     <form onSubmit={handleSubmit}>
       <div>
-        <label htmlFor="name">Name:</label>
+        <label>Full Name:</label>
         <input
           type="text"
-          id="name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
           required
+          placeholder="Name..."
+          className="contactformname"
         />
       </div>
       <div>
-        <label htmlFor="email">Email:</label>
+        <label>Email:</label>
         <input
           type="email"
-          id="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
           required
+          placeholder="Email..."
+          className="contactformemail"
         />
       </div>
       <div>
-        <label htmlFor="question">Question:</label>
+        <label>Message:</label>
         <textarea
-          id="question"
-          value={question}
-          onChange={(e) => setQuestion(e.target.value)}
+          className="contactformtextarea"
+          name="message"
+          value={formData.message}
+          onChange={handleChange}
           required
+          placeholder="Enter your message here..."
         />
       </div>
-      <button type="submit">Submit</button>
+      <button className="contactformbutton" type="submit">
+        Submit
+      </button>
     </form>
   );
 };
